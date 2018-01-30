@@ -1,0 +1,65 @@
+body 
+{
+  padding-top: 10px;
+}
+
+h1
+{
+  color: blue;
+}
+
+h2
+{
+  color: blue;
+  font-size: 1.5em;
+}
+
+[class*="col-"], header, nav, section, footer 
+{
+  padding: 5px 5px 5px 5px;
+}
+
+header, footer
+{
+	text-align: center;
+}
+
+section
+{
+  min-height: 600px;
+}
+
+footer
+{
+  background-color: grey; 
+}
+
+/* Navigation */
+nav
+{
+  background-color: rgb(47 41 137);
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: white;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: grey;
+}
