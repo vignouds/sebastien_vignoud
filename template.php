@@ -21,7 +21,7 @@
         	</nav>
         	<?= $content ?>
         	<footer class="row">
-    			<p>Copywright Sébastien Vignoud, all rights reserved</p>
+                <p>Bienvenue sur mon site personnel.</p>
     		</footer>
         </div>
     </body>
