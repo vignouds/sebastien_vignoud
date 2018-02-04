@@ -14,7 +14,7 @@
       		</header>
     		<nav class="row">
             	<ul>
-	                <li><a href="acceuil.php">A propos</a></li>
+	                <li><a href="index.php">A propos</a></li>
 	                <li><a href="cv.php">Mon CV</a></li>
 	                <li><a href="contact.php">Me conctacter</a></li>
              	</ul>   		
