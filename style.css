@@ -52,6 +52,22 @@ footer
   padding: 2px 2px 2px 2px;
 }
 
+footer a 
+{
+  margin-left: 6px;
+  color: rgb(30 36 115);
+}
+
+.logo a:hover
+{
+  color: rgb(33 88 190);
+}
+
+.logo
+{
+  font-size: 2em;
+}
+
 /* Navigation */
 nav
 {

@@ -4,6 +4,7 @@
         <meta charset="utf-8" />
         <title><?= $title ?></title>
         <link href="./style.css" rel="stylesheet" /> 
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     </head>
         
     <body>
@@ -22,7 +23,7 @@
         	</nav>
         	<?= $content ?>
         	<footer>
-                <p>Retrouvez-moi sur les réseaux : <a href="https://linkedin.com/in/sébastien-vignoud" target="_blank"><img src="./images/linkedin.png" alt="linkedin" title="Linkedin"></a>    <a href="https://github.com/vignouds" title="GitHub" target="_blank"><img src="./images/GitHub.png" alt="GitHub"></a></p>
+                <p>Retrouvez-moi sur les réseaux : <span class="logo"><a href="https://linkedin.com/in/sébastien-vignoud" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a><a href="https://github.com/vignouds" title="GitHub" target="_blank"><i class="fab fa-github"></i></a></span></p>
     		</footer>
         </div>
     </body>
