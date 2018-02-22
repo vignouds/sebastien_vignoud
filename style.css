@@ -1,6 +1,12 @@
+@font-face 
+{
+    font-family: 'robotoRegular';
+    src: url('./fonts/Roboto-Regular.ttf') format('truetype');
+}
+
 body 
 {
-  padding-top: 10px;
+  font-family: 'robotoRegular', Comic Sans MS, Verdana, Arial, sans-serif;
 }
 
 h1
@@ -11,7 +17,7 @@ h1
 h2
 {
   color: white;
-  font-size: 1.5em;
+  font-size: 1.3em;
   background-color: rgb(33 88 190);
 }
 
@@ -25,7 +31,7 @@ a
 	color: rgb(33 88 190);
 }
 
-[class*="col-"], header, nav, section, footer 
+header, section, footer 
 {
   padding: 5px 5px 5px 5px;
 }
@@ -43,6 +49,7 @@ header
 footer
 {
   background-color: grey; 
+  padding: 2px 2px 2px 2px;
 }
 
 /* Navigation */
@@ -53,24 +60,28 @@ nav
 
 nav ul
 {
-    list-style-type: none;
-    display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 nav li
 {
-    margin-right: 15px;
+    float: left;
 }
 
 nav a
 {
     font-size: 1.3em;
     color: white;
-    padding-bottom: 3px;
+    display: block;
+    text-align: center;
+    padding: 10px 12px;
     text-decoration: none;
 }
 
 nav a:hover
 {
-    color: grey;
+    background-color: grey;
 }

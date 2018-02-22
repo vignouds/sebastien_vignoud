@@ -2,7 +2,7 @@
 
 <?php ob_start(); ?>
 
-<section class="row">
+<section>
     <h2>Expériences professionnelles</h2>
     <ul>
     	<li><strong>2016-2017</strong> : Analyste financier chez Exoce</li>

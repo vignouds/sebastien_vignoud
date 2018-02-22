@@ -2,7 +2,7 @@
 
 <?php ob_start(); ?>
 
-<section class="row">
+<section>
     <p>Bonjour.</p>
     <p>Je suis Sébastien Vignoud et je vous souhaite la bienvenue sur mon site internet.</p>
     <p>Diplômé en économie et en finance, je suis actuellement en train de me former au développement infromatique afin d'élargir mes horizons professionnels. La création de ce site est donc un moyen pour moi de mettre en pratique mes conaissances fraichement acquises.</p>
