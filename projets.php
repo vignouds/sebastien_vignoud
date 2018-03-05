@@ -10,6 +10,9 @@
 	<h2>Jeu de rôle en javascript</h2>
 	<p>Il s'agit d'un petit jeu de rôle que je suis en train de créer essentiellement en Javascript. Le but ici est seulement de m'entraîner à coder en mettant en pratique mes connaissances dans un domaine qui me plait.</p>
 	<div class="logo"><a href="https://github.com/vignouds/jdr_js" title="Repository Git du projet" target="_blank"><i class="fab fa-github"></i></a></div>
+	<h2>Devenir développeur</h2>
+	<p>Projet de blog.</p>
+	<a href="http://devenir-developpeur.info/" target="_blank">devenir-developpeur.info</a>
 </section>
 
 <?php $content = ob_get_clean(); ?>

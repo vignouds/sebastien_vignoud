@@ -9,6 +9,12 @@ body
   font-family: 'robotoRegular', Comic Sans MS, Verdana, Arial, sans-serif;
 }
 
+.container
+{
+  width: 70%;
+  margin: auto;
+}
+
 h1
 {
   font-variant: small-caps;
@@ -17,8 +23,10 @@ h1
 h2
 {
   color: white;
-  font-size: 1.3em;
-  background-color: rgb(33 88 190);
+  font-size: 1.2em;
+  background-color: rgb(33, 88, 190);
+  border-radius: 5px;
+  padding: 2px 2px 2px 2px;
 }
 
 ul
@@ -28,7 +36,7 @@ ul
 
 a
 {
-	color: rgb(33 88 190);
+	color: rgb(33, 88, 190);
 }
 
 header, section, footer 
@@ -36,31 +44,30 @@ header, section, footer
   padding: 5px 5px 5px 5px;
 }
 
-header, footer
-{
-	text-align: center;
-}
-
 header
 {
-	background-image: radial-gradient(circle at center, white, rgb(33 88 190));
+	background-image: radial-gradient(circle at center, white, rgb(33, 88, 190));
+	margin-bottom: 10px;
+	text-align: center;
+	border-radius: 10px;
 }
 
 footer
 {
   background-color: grey; 
-  padding: 2px 2px 2px 2px;
+  text-align: center;
+  border-radius: 10px;
 }
 
 footer a 
 {
   margin-left: 6px;
-  color: rgb(30 36 115);
+  color: rgb(30, 36, 115);
 }
 
 .logo a:hover
 {
-  color: rgb(33 88 190);
+  color: rgb(33, 88, 190);
 }
 
 .logo
@@ -71,7 +78,7 @@ footer a
 /* Navigation */
 nav
 {
-  background-color: rgb(30 36 115);
+  background-color: rgb(30, 36, 115);
 }
 
 nav ul
@@ -100,4 +107,186 @@ nav a
 nav a:hover
 {
     background-color: grey;
+}
+
+/* CV */
+.cv
+{
+  display: flex;
+  justify-content: center;
+}
+
+.cv li
+{
+	padding: 10px 10px 10px 10px;
+	background-color: rgb(229, 229, 229);
+	color: blue;
+}
+
+.cv li:hover
+{
+  color: white;
+	background-color: rgb(78, 177, 213);
+	box-shadow: 0px 3px 0px rgb(70, 140, 173);
+}
+
+#cv, #sect1, #sct2
+{
+  min-height: 500px;
+  width: 100%;
+}
+
+.langageContain
+{
+  display: flex;
+  padding: 12px 12px 12px 12px;
+}
+
+.langages
+{
+  width: 20%;
+  font-weight: bold;
+}
+
+.echelle
+{
+  width: 15%;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.barres
+{
+  background-color: rgb(33, 88, 190);
+  height: 20px;
+}
+
+.un
+{
+  width: 15%;
+  -webkit-animation: nivUn 5s;
+  animation: nivUn 5s;  
+}
+
+@-webkit-keyframes nivUn 
+{
+  0%  { 
+    width: 0;
+  }
+  100%  { 
+    width: 15%;  
+  }
+}
+
+@keyframes nivUn 
+{
+  0%  { 
+    width: 0;
+  }
+  100%  { 
+    width: 15%;  
+  }
+}
+
+.deux
+{
+  width: 30%;
+  -webkit-animation: nivDeux 5s;
+  animation: nivDeux 5s;  
+}
+
+@-webkit-keyframes nivDeux 
+{
+  0%  { 
+    width: 0;
+  }
+  100%  { 
+    width: 30%;  
+  }
+}
+
+@keyframes nivDeux 
+{
+  0%  { 
+    width: 0;
+  }
+  100%  { 
+    width: 30%;  
+  }
+}
+
+.trois
+{
+  width: 45%;
+  -webkit-animation: nivTrois 5s;
+  animation: nivTrois 5s;  
+}
+
+@-webkit-keyframes nivTrois 
+{
+  0%  { 
+    width: 0;
+  }
+  100%  { 
+    width: 45%;  
+  }
+}
+
+@keyframes nivTrois 
+{
+  0%  { 
+    width: 0;
+  }
+  100%  { 
+    width: 45%;  
+  }
+}
+
+.quatre
+{
+  width: 60%;
+  -webkit-animation: nivQuatre 5s;
+  animation: nivQuatre 5s;  
+}
+
+@-webkit-keyframes nivQuatre 
+{
+  0%  { 
+    width: 0;
+  }
+  100%  { 
+    width: 60%;  
+  }
+}
+
+@keyframes nivQuatre 
+{
+  0%  { 
+    width: 0;
+  }
+  100%  { 
+    width: 60%;  
+  }
+}
+
+/* Portfolio */
+.flex 
+{
+  display: flex;
+}
+
+.portfolio
+{
+  width: 50%;
+  margin-right: 10px;
+}
+
+/* Media queries */
+
+@media all and (max-width: 800px) and (max-device-width: 800px)
+{
+	.container
+	{
+	  width: 100%;
+	}
 }
