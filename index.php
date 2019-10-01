@@ -4,11 +4,9 @@
 
 <section>
     <p>Bonjour.</p>
-    <p>Je suis Sébastien Vignoud et je vous souhaite la bienvenue sur mon site internet.</p>
-    <p>Diplômé en économie et en finance, je suis actuellement en train de me former au développement informatique afin d'élargir mes horizons professionnels. La création de ce site est donc un moyen pour moi de mettre en pratique mes conaissances fraichement acquises.</p>
-    <p>Par ailleurs, je suis trompettiste, pianiste et compositeur amateur. J'écris aussi quelques nouvelles à mes heures perdues et j'ai plusieurs projets de romans dans mes cartons.</p>
-    <p>Ce site en est à ses débuts et il évoluera avec mes progrès en informatique et le nouveau contenu que je pourrai poster dessus.</p>
-    <p>Je ne vois rien à ajouter pour le moment à cette description, je vous souhaite donc bonne visite !</p>
+    <p>Je suis Sébastien Vignoud, développeur informatique et passionné d'écriture et de musique.</p>
+    <p>Ce site est actuellement en construction et évoluera en fonction des mes différents projets.</p>
+    <p>Je suis actuellement en pleine écriture de mon premier roman, donc si ce sujet vous intéresse je vous invite à me retrouver sur mon blog d'écrivain.</p>
 </section>
 
 <?php $content = ob_get_clean(); ?>
