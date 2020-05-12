@@ -1,15 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-    	<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114826189-1"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
 
-		  gtag('config', 'UA-114826189-1');
-		</script>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title><?= $title ?></title>
@@ -31,7 +23,15 @@
         	</nav>
         	<?= $content ?>
         	<footer>
-                <p>Retrouvez-moi sur les réseaux : <span class="logo"><a href="https://linkedin.com/in/sébastien-vignoud" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a><a href="https://github.com/vignouds" title="GitHub" target="_blank"><i class="fab fa-github"></i></a></span></p>
+                <p>Retrouvez-moi sur les réseaux : <span class="logo">
+                  <a href="https://www.facebook.com/Sébastien-Vignoud-109361150776429" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+                  <a href="https://twitter.com/SebVignoud" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                  <a href="https://linkedin.com/in/sébastien-vignoud" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+                  <a href="https://www.scribay.com/author/1474233768/sebastien-vignoud" target="_blank" title="Scribay">Scribay</a>
+                  <a href="https://www.wattpad.com/user/svignoud" target="_blank" title="wattpad">Wattpad</a>
+                  <!-- <a href="https://github.com/vignouds" title="GitHub" target="_blank"><i class="fab fa-github"></i></a> -->
+                  <!-- TODO : amazon -->
+                </span></p>
     		</footer>
         </div>
     </body>
